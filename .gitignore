@@ -1,13 +1,6 @@
-<<<<<<< HEAD
-bin/
-.project
-.settings
-.classpath
-.metadata/
-=======
 /bin/
 /.project
 /.settings
 /.classpath
 /.metadata/
->>>>>>> 26d72b54a53d494d067e5b6a990050f2970143a0
+
