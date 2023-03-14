@@ -1,0 +1,72 @@
+package main.java.proyectoGimnasia.interfaces;
+
+import java.util.Objects;
+
+public class iControllerPruebas {
+	private String tipoP;
+	private String categoriaP;
+	private String aparatoP;
+	
+	public String getTipoP() {
+		return tipoP;
+	}
+	public void setTipoP(String tipoP) {
+		this.tipoP = tipoP;
+	}
+	public String getCategoriaP() {
+		return categoriaP;
+	}
+	public void setCategoriaP(String categoriaP) {
+		this.categoriaP = categoriaP;
+	}
+	public String getAparatoP() {
+		return aparatoP;
+	}
+	public void setAparatoP(String aparatoP) {
+		this.aparatoP = aparatoP;
+	}
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(aparatoP, categoriaP, tipoP);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		iControllerPruebas other = (iControllerPruebas) obj;
+		return Objects.equals(aparatoP, other.aparatoP) && Objects.equals(categoriaP, other.categoriaP)
+				&& Objects.equals(tipoP, other.tipoP);
+	}
+	public iControllerPruebas(String categoriaP, String aparatoP, String tipoP) {
+		super();
+		this.categoriaP = categoriaP;
+		this.aparatoP = aparatoP;
+		this.tipoP = tipoP;
+	}
+	public void exeRegistrarP() {
+		
+	}
+	public void registrarP() {
+		
+	}
+	public void exeListarP() {
+		
+	}
+	public void ListarP() {
+		
+	}
+	public void borrarP() {
+		
+	}
+	public void exeUpdate() {
+		
+	}
+	public void updateP() {
+		
+	}
+}
